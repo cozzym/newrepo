@@ -52,3 +52,9 @@ const myCallback = function(increment,callback){
 const result = myCallback(0,function(){
   console.log(increment)
 })
+
+
+const result = myCallback(0,function(){
+  console.log(increment)
+})
+
