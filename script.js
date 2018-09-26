@@ -49,7 +49,5 @@ const myCallback = function(increment,callback){
   return increment;
 }
 
-const result = myCallback(0,function(){
-  console.log(increment)
-})
+
 
