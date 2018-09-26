@@ -39,6 +39,7 @@
 // //console.log(sayName.sayHi());
 // console.log(Person.executionObj);
 
+var increment = 'global increment';
 
 const myCallback = function(increment,callback){
   for(var x = 0; x<10; x++){
@@ -48,5 +49,8 @@ const myCallback = function(increment,callback){
   return increment;
 }
 
+const result = myCallback(0,function(){
+  console.log(increment)
+})
 
 
